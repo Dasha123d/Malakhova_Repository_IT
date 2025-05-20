@@ -46,3 +46,30 @@ nav a:visited {
 nav a:hover {
     color: green;
 }
+
+main {
+    position: absolute;
+    top: 10%;
+    left: 22%;
+    width: 78%;
+    height: 80%;
+    padding-left: 6px;
+    overflow: scroll;
+}
+
+main h1 {
+    font: 150% Georgia;
+    font-weight: 800;
+    color: rgb(88, 15, 247);
+}
+
+main h2 {
+    font: 130% Georgia;
+    font-weight: 600;
+    font-style: italic;
+    color: rgb(66, 50, 231);
+}
+
+main p {
+    border-bottom: 1px dotted rgb(...);
+}
